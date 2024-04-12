@@ -1,0 +1,12 @@
+D:\Personal\MapleStory\v214\Launcher\v214\bin\Debug\v214.exe.config
+D:\Personal\MapleStory\v214\Launcher\v214\bin\Debug\v214.exe
+D:\Personal\MapleStory\v214\Launcher\v214\bin\Debug\v214.pdb
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\Launcher.csproj.AssemblyReference.cache
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\Launcher.csproj.SuggestedBindingRedirects.cache
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\SwordieLauncher.Form1.resources
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\SwordieLauncher.Form2.resources
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\v214.Properties.Resources.resources
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\Launcher.csproj.GenerateResource.cache
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\v214.exe
+D:\Personal\MapleStory\v214\Launcher\v214\obj\Debug\v214.pdb
