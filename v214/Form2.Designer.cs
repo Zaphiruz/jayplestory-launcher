@@ -180,7 +180,7 @@
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form2";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Moonlight v214 - Create Account";
+			this.Text = "Jayplestory v214 - Create Account";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

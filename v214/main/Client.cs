@@ -14,7 +14,7 @@ namespace Swordie
         private static readonly ManualResetEvent receiveDone = new ManualResetEvent(false);
 
         // Server IP
-        private readonly string HOST = "47.34.186.48";
+        private readonly string HOST = "jayplestory.online";
         // Server Port
         private readonly int PORT = 8483;
 
