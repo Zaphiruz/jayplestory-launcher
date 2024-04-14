@@ -57,7 +57,7 @@ namespace SwordieLauncher
         private readonly Client client;
 
         private readonly static uint CREATE_SUSPENDED = 0x00000004;
-        private readonly static String sDllPath = "Moonlight.dll";
+        private readonly static String sDllPath = "ijl15.dll";
 
         [DllImport("kernel32.dll")]
         static extern bool CreateProcess(string lpApplicationName, string lpCommandLine, IntPtr lpProcessAttributes, IntPtr lpThreadAttributes,
