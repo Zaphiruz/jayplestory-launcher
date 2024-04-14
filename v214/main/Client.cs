@@ -22,12 +22,25 @@ namespace Swordie
         {
             try
             {
-                IPAddress address = IPAddress.Parse(this.HOST);
-                IPEndPoint ipEndPoint = new IPEndPoint(address, this.PORT);
-                this.socket = new Socket(address.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-                this.socket.BeginConnect((EndPoint)ipEndPoint, new AsyncCallback(this.ConnectCallback), (object)this.socket);
-                Client.connectDone.WaitOne();
-            }
+                IPAddress address = null;
+
+				try
+                {
+                    address = IPAddress.Parse(HOST);
+                } catch(FormatException)
+                {
+					IPHostEntry hostEntry = Dns.GetHostEntry(HOST);
+					if (hostEntry.AddressList.Length > 0)
+					{
+						address = hostEntry.AddressList[0];
+					}
+                }
+
+				IPEndPoint ipEndPoint = new IPEndPoint(address, this.PORT);
+				this.socket = new Socket(address.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+				this.socket.BeginConnect((EndPoint)ipEndPoint, new AsyncCallback(this.ConnectCallback), (object)this.socket);
+				Client.connectDone.WaitOne();
+			}
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
