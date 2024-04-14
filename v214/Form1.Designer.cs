@@ -57,7 +57,8 @@
 			this.usernameLabel.AutoSize = true;
 			this.usernameLabel.BackColor = System.Drawing.Color.Transparent;
 			this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.usernameLabel.Location = new System.Drawing.Point(134, 52);
+			this.usernameLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.usernameLabel.Location = new System.Drawing.Point(54, 71);
 			this.usernameLabel.Name = "usernameLabel";
 			this.usernameLabel.Size = new System.Drawing.Size(70, 16);
 			this.usernameLabel.TabIndex = 1;
@@ -68,7 +69,8 @@
 			this.passwordLabel.AutoSize = true;
 			this.passwordLabel.BackColor = System.Drawing.Color.Transparent;
 			this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.passwordLabel.Location = new System.Drawing.Point(134, 98);
+			this.passwordLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.passwordLabel.Location = new System.Drawing.Point(57, 117);
 			this.passwordLabel.Name = "passwordLabel";
 			this.passwordLabel.Size = new System.Drawing.Size(67, 16);
 			this.passwordLabel.TabIndex = 2;
@@ -128,7 +130,7 @@
 			this.Controls.Add(this.passwordLabel);
 			this.Controls.Add(this.usernameLabel);
 			this.Controls.Add(this.usernameTextBox);
-			this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+			this.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximizeBox = false;

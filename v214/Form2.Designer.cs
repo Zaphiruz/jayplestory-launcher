@@ -62,7 +62,7 @@
 			this.passwordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.passwordTextBox.ForeColor = System.Drawing.SystemColors.HighlightText;
 			this.passwordTextBox.HideSelection = false;
-			this.passwordTextBox.Location = new System.Drawing.Point(137, 96);
+			this.passwordTextBox.Location = new System.Drawing.Point(137, 115);
 			this.passwordTextBox.Name = "passwordTextBox";
 			this.passwordTextBox.Size = new System.Drawing.Size(200, 20);
 			this.passwordTextBox.TabIndex = 1;
@@ -76,7 +76,7 @@
 			this.emailTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.emailTextBox.ForeColor = System.Drawing.SystemColors.HighlightText;
 			this.emailTextBox.HideSelection = false;
-			this.emailTextBox.Location = new System.Drawing.Point(137, 138);
+			this.emailTextBox.Location = new System.Drawing.Point(137, 145);
 			this.emailTextBox.Name = "emailTextBox";
 			this.emailTextBox.Size = new System.Drawing.Size(200, 20);
 			this.emailTextBox.TabIndex = 2;
@@ -86,8 +86,8 @@
 			this.usernameLabel.AutoSize = true;
 			this.usernameLabel.BackColor = System.Drawing.Color.Transparent;
 			this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.usernameLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-			this.usernameLabel.Location = new System.Drawing.Point(134, 33);
+			this.usernameLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.usernameLabel.Location = new System.Drawing.Point(58, 56);
 			this.usernameLabel.Name = "usernameLabel";
 			this.usernameLabel.Size = new System.Drawing.Size(70, 16);
 			this.usernameLabel.TabIndex = 3;
@@ -99,8 +99,8 @@
 			this.passwordLabel.AutoSize = true;
 			this.passwordLabel.BackColor = System.Drawing.Color.Transparent;
 			this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.passwordLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-			this.passwordLabel.Location = new System.Drawing.Point(134, 77);
+			this.passwordLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.passwordLabel.Location = new System.Drawing.Point(61, 115);
 			this.passwordLabel.Name = "passwordLabel";
 			this.passwordLabel.Size = new System.Drawing.Size(67, 16);
 			this.passwordLabel.TabIndex = 4;
@@ -111,8 +111,8 @@
 			this.emailLabel.AutoSize = true;
 			this.emailLabel.BackColor = System.Drawing.Color.Transparent;
 			this.emailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.emailLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-			this.emailLabel.Location = new System.Drawing.Point(134, 119);
+			this.emailLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.emailLabel.Location = new System.Drawing.Point(87, 145);
 			this.emailLabel.Name = "emailLabel";
 			this.emailLabel.Size = new System.Drawing.Size(41, 16);
 			this.emailLabel.TabIndex = 5;
@@ -123,7 +123,7 @@
 			this.createButton.BackColor = System.Drawing.Color.Transparent;
 			this.createButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.createButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.createButton.Location = new System.Drawing.Point(155, 166);
+			this.createButton.Location = new System.Drawing.Point(153, 183);
 			this.createButton.Name = "createButton";
 			this.createButton.Size = new System.Drawing.Size(171, 26);
 			this.createButton.TabIndex = 6;
